@@ -49,8 +49,7 @@ function loopMain() {
         sleep(1500);
     } else {
         toast("没找到猫币入口");
-        back();
-        sleep(1500);
+        return;
         // exit();
     }
 
